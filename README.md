@@ -7,6 +7,7 @@ Este proyecto utiliza Node.js, Express y MongoDB para el backend. A continuació
 - Node.js (versión 14 o superior)
 - npm (Node Package Manager)
 - MongoDB (puedes usar MongoDB Atlas para una base de datos en la nube o instalar MongoDB localmente)
+- Virtual Studio Code
 
 ## Instalación
 
@@ -17,3 +18,23 @@ Primero, clona el repositorio en tu máquina local:
 ```sh
 git clone https://github.com/SalvadorACP/Ecolife-Market-Backend.git
 cd tu-repositorio
+```
+Instala las dependencias 
+
+```sh
+npm install
+```
+
+Despues ejecuta el archivo (populateDB.js) en la terminal dentro del directorio donde este alojado el proyecto
+
+```sh
+node populateDB.js
+```
+Esto creara una base de datos en mongo y poblará la base de datos con 10 productos
+
+Despues entra al entorno de desarrollo para levantar el backend
+
+```sh
+npm run dev
+```
+
